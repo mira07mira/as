@@ -2,9 +2,6 @@
 var time = +prompt('Введите время')
 
 switch (time) {
-    case 0:
-        alert('12 часов ночи')
-        break;
     case 1:
         alert('час ночи')
         break;
@@ -75,7 +72,7 @@ switch (time) {
         alert('11 часов вечера')
         break;
     case 24:
-        alert('12 часов вечера')
+        alert('12 часов ночис')
         break;
 
     default:
